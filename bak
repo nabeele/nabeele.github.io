@@ -1,0 +1,65 @@
+<div class="form-group ">
+       <input class="form-control" id="preorderemail" placeholder="Email Address" type="email" required="required"/>
+		<p class="help-block text-danger"></p>
+      </div>
+     <div class="form-group ">
+       <textarea class="form-control" id="preorderaddress" name="preorderaddress" placeholder="Address" rows="5" required></textarea>
+	   <p class="help-block text-danger"></p>
+    </div>
+     <div class="form-group ">
+       <select class="select form-control" id="preorderquantity" name="preorderquantity">
+        <option value="1">
+         1
+        </option>
+        <option value="2">
+         2
+        </option>
+        <option value="3">
+         3
+        </option>
+        <option value="4">
+         4
+        </option>
+        <option value="5">
+         5
+        </option>
+        <option value="Over 5">
+         Over 5
+        </option>
+       </select>
+	   <p class="help-block text-danger"></p>
+     </div>
+	
+	
+	
+	
+	
+	
+	var email = $("input#preorderemail").val();
+			var message = $("textarea#preorderaddress").val();
+			
+	
+name: preordername,
+					email: preorderemail,
+					address: preorderaddress
+					
+					
+					
+					 <div class="container-fluid">
+    <div class="formden_header">
+     <h2>
+      Pre Order Form
+     </h2>
+     <p>
+     </p>
+    </div>
+	<form name="preorderMessage" id="preorderForm" class="form" novalidate>
+     <div class="form-group">
+        <input class="form-control" id="preordername" placeholder="Name" type="text" required="required">
+	   <p class="help-block text-danger"></p>
+      </div>
+     
+	  <div id="success2"></div>
+       <button type="submit" class="btn btn-primary">Pre Order</button>
+    </form>
+ </div>
